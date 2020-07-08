@@ -14,8 +14,11 @@ shotty uses the profile created in AWS CLI, ex.
 
 ## Running
 
-'pipenv run "shotty/shotty.py"'
+'pipenv run "shotty/shotty.py <command> <--project=PROJECT>"'
 
 ### Alternative if Win10:
 
-'pipenv run shotty/shotty.py'
+'pipenv run shotty/shotty.py <command> <--project=PROJECT>'
+
+*command* is list, start, or stop
+*project* is optional
